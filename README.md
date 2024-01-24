@@ -1,0 +1,1 @@
+This is my software devloper portofolio site for displaying my contact info and my projects. This site uses LiveTerm, a public website template.

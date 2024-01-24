@@ -28,6 +28,11 @@ export const repo = async (args: string[]): Promise<string> => {
   return 'Opening Github repository...';
 };
 
+export const gui = async (args: string[]): Promise<string> => {
+  window.open(`${config.simple}`);
+  return 'Opening simplified portfolio layout...';
+};
+
 // About
 export const about = async (args: string[]): Promise<string> => {
   return `Hi, I am ${config.name}. 
